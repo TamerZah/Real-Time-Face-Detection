@@ -29,7 +29,7 @@ The original paper https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvp
 ## Haar Feature Selection:
 Harr features uses extraction of common features by measuring the difference of intensity betwen regions this is some how looks like convolutional kernel.
 
-<img src="images/Shapes.jpg" />
+<img src="images/Shapes.jpg" style="text-align:center;" />
 
 We apply each rectangle as convolutional kernel over whole image to extract features, so simple 24 by 24 images will result of over 160,000 features which is computionally impossible for live face detection which could be solved using integral images and Adaboost as we will see later in this article.
 
